@@ -1,1 +1,204 @@
- local n = Instance.new("\83\99\114\101\101\110\71\117\105") local p = Instance.new("\70\114\97\109\101") local b = Instance.new("\85\73\67\111\114\110\101\114") local r = Instance.new("\84\101\120\116\66\111\120") local m = Instance.new("\85\73\67\111\114\110\101\114") local e = Instance.new("\84\101\120\116\66\117\116\116\111\110") local b_3 = Instance.new("\85\73\67\111\114\110\101\114") local j = Instance.new("\84\101\120\116\66\117\116\116\111\110") local q = Instance.new("\85\73\67\111\114\110\101\114") local t = Instance.new("\84\101\120\116\76\97\98\101\108") local k = Instance.new("\84\101\120\116\66\117\116\116\111\110") local b_5 = Instance.new("\85\73\67\111\114\110\101\114") local g = Instance.new("\84\101\120\116\76\97\98\101\108") n.Parent = game.CoreGui n.ZIndexBehavior = Enum.ZIndexBehavior.Sibling p.Parent = n p.BackgroundColor3 = Color3.fromRGB(42, 145, 28) p.Position = UDim2.new(0.388204455, 0, 0.141059756, 0) p.Size = UDim2.new(0, 263, 0, 331) b.Parent = p r.Parent = p r.BackgroundColor3 = Color3.fromRGB(168, 30, 30) r.Position = UDim2.new(0.216044679, 0, 0.21690394, 0) r.Size = UDim2.new(0, 155, 0, 38) r.Font = Enum.Font.SourceSans r.PlaceholderColor3 = Color3.fromRGB(255, 255, 255) r.PlaceholderText = "\75\101\121\32\72\101\114\101" r.Text = "" r.TextColor3 = Color3.fromRGB(255, 255, 255) r.TextScaled = true r.TextSize = 14.000 r.TextWrapped = true m.Parent = r e.Name = "\115\101\110\100" e.Parent = p e.BackgroundColor3 = Color3.fromRGB(168, 30, 30) e.Position = UDim2.new(0.0289288424, 0, 0.418697029, 0) e.Size = UDim2.new(0, 120, 0, 33) e.Font = Enum.Font.SourceSans e.Text = "\83\117\98\109\105\116" e.TextColor3 = Color3.fromRGB(255, 255, 255) e.TextScaled = true e.TextSize = 14.000 e.TextWrapped = true e.MouseButton1Click:connect(function() if r.Text == "\118\101\110\111\109" then game:GetService("\83\116\97\114\116\101\114\71\117\105"):SetCore("\83\101\110\100\78\111\116\105\102\105\99\97\116\105\111\110",{ Title = "\87\101\108\99\111\109\101"; Text = "\69\110\106\111\121\33"; }) n:Destroy() loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\100\111\103\115\49\51\50\49\117\110\99\114\97\99\107\97\98\108\101\47\97\110\105\109\101\45\103\104\111\117\108\45\103\97\109\101\47\109\97\105\110\47\82\69\65\68\77\69\46\109\100", true))() else game:GetService("\83\116\97\114\116\101\114\71\117\105"):SetCore("\83\101\110\100\78\111\116\105\102\105\99\97\116\105\111\110",{ Title = "\69\114\114\111\114"; Text = "\73\110\99\111\114\114\101\99\116\32\107\101\121\33"; }) end    end) b_3.Parent = e j.Name = "\100\105\115\99\111\114\100" j.Parent = p j.BackgroundColor3 = Color3.fromRGB(168, 30, 30) j.Position = UDim2.new(0.517896891, 0, 0.418697029, 0) j.Size = UDim2.new(0, 120, 0, 33) j.Font = Enum.Font.SourceSans j.Text = "\67\111\112\121\32\100\105\115\99\111\114\100\32\115\101\114\118\101\114" j.TextColor3 = Color3.fromRGB(255, 255, 255) j.TextScaled = true j.TextSize = 14.000 j.TextWrapped = true q.Parent = j t.Parent = p t.BackgroundColor3 = Color3.fromRGB(135, 24, 24) t.BackgroundTransparency = 1.000 t.Position = UDim2.new(0.132980987, 0, -0.000513609499, 0) t.Size = UDim2.new(0, 200, 0, 50) t.Font = Enum.Font.SourceSans t.Text = "\76\97\110\120\105\108\105\116\121" t.TextColor3 = Color3.fromRGB(254, 254, 254) t.TextSize = 35.000 k.Name = "\75\101\121\66\121\98\97\115\115" k.Parent = p k.BackgroundColor3 = Color3.fromRGB(145, 25, 25) k.Position = UDim2.new(0.265169114, 0, 0.584798694, 0) k.Size = UDim2.new(0, 126, 0, 32) k.Font = Enum.Font.SourceSansItalic k.Text = "\75\101\121\66\121\98\97\115\115" k.TextColor3 = Color3.fromRGB(255, 255, 255) k.TextScaled = true k.TextSize = 14.000 k.TextWrapped = true k.MouseButton1Click:connect(function() local l = game.Players.LocalPlayer if game:GetService("\77\97\114\107\101\116\112\108\97\99\101\83\101\114\118\105\99\101"):UserOwnsGamePassAsync(l.UserId, 25790715) then game:GetService("\83\116\97\114\116\101\114\71\117\105"):SetCore("\83\101\110\100\78\111\116\105\102\105\99\97\116\105\111\110",{ Title = "\83\107\105\112\112\101\100\33"; Text = "\33"; }) n:Destroy() loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\100\111\103\115\49\51\50\49\117\110\99\114\97\99\107\97\98\108\101\47\97\110\105\109\101\45\103\104\111\117\108\45\103\97\109\101\47\109\97\105\110\47\82\69\65\68\77\69\46\109\100", true))() else game:GetService("\83\116\97\114\116\101\114\71\117\105"):SetCore("\83\101\110\100\78\111\116\105\102\105\99\97\116\105\111\110",{ Title = "\69\114\111\114\114"; Text = "\66\117\121\32\103\97\109\101\112\97\115\115\32\105\116\115\32\99\111\112\105\101\100"; }) end end) b_5.Parent = k g.Parent = p g.BackgroundColor3 = Color3.fromRGB(255, 255, 255) g.BackgroundTransparency = 1.000 g.BorderSizePixel = 0 g.Position = UDim2.new(0.209379017, 0, 0.765142083, 0) g.Size = UDim2.new(0, 151, 0, 26) g.Font = Enum.Font.SourceSansBold g.Text = "\83\65\76\69\83\32\79\78\32\75\69\89\32\66\89\66\65\83\83\33" g.TextColor3 = Color3.fromRGB(255, 255, 255) g.TextSize = 30.000 local function i()  local ha = Instance.new('LocalScript', r) local _ = {"\49\55\53\54\52\48\56\52", } end coroutine.wrap(i)() local function UQDKR_fake_ha()  local ha = Instance.new('LocalScript', j) ha.Parent.MouseButton1Click:Connect(function() setclipboard('https://j.gg/venomdh') end) end coroutine.wrap(UQDKR_fake_ha)() local function TUUNO_fake_ha()  local ha = Instance.new('LocalScript', k) ha.Parent.MouseButton1Click:Connect(function() setclipboard('https://www.roblox.com/game-pass/25790715/Key-Bypass-for-lanxility') end) end coroutine.wrap(TUUNO_fake_ha)() local function o()  local ha = Instance.new('LocalScript', p) workspace:FindFirstChildOfClass('Terrain').WaterWaveSize = 0 workspace:FindFirstChildOfClass('Terrain').WaterWaveSpeed = 0 workspace:FindFirstChildOfClass('Terrain').WaterReflectance = 0 workspace:FindFirstChildOfClass('Terrain').WaterTransparency = 0 game:GetService("\76\105\103\104\116\105\110\103").GlobalShadows = false game:GetService("\76\105\103\104\116\105\110\103").FogEnd = 9e9 settings().Rendering.QualityLevel = 1 for i,v in pairs(game:GetDescendants()) do if v:IsA("\80\97\114\116") or v:IsA("\85\110\105\111\110\79\112\101\114\97\116\105\111\110") or v:IsA("\77\101\115\104\80\97\114\116") or v:IsA("\67\111\114\110\101\114\87\101\100\103\101\80\97\114\116") or v:IsA("\84\114\117\115\115\80\97\114\116") then v.Material = "\80\108\97\115\116\105\99" v.Reflectance = 0 elseif v:IsA("\68\101\99\97\108") then v.Transparency = 1 elseif v:IsA("\80\97\114\116\105\99\108\101\69\109\105\116\116\101\114") or v:IsA("\84\114\97\105\108") then v.Lifetime = NumberRange.new(0) elseif v:IsA("\69\120\112\108\111\115\105\111\110") then v.BlastPressure = 1 v.BlastRadius = 1 end end for i,v in pairs(game:GetService("\76\105\103\104\116\105\110\103"):GetDescendants()) do if v:IsA("\66\108\117\114\69\102\102\101\99\116") or v:IsA("\83\117\110\82\97\121\115\69\102\102\101\99\116") or v:IsA("\67\111\108\111\114\67\111\114\114\101\99\116\105\111\110\69\102\102\101\99\116") or v:IsA("\66\108\111\111\109\69\102\102\101\99\116") or v:IsA("\68\101\112\116\104\79\102\70\105\101\108\100\69\102\102\101\99\116") then v.Enabled = false end end end 
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local send = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local discord = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local KeyBybass = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(42, 145, 28)
+Frame.Position = UDim2.new(0.388204455, 0, 0.141059756, 0)
+Frame.Size = UDim2.new(0, 263, 0, 331)
+
+UICorner.Parent = Frame
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(168, 30, 30)
+TextBox.Position = UDim2.new(0.216044679, 0, 0.21690394, 0)
+TextBox.Size = UDim2.new(0, 155, 0, 38)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.PlaceholderText = "Key Here"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+UICorner_2.Parent = TextBox
+
+send.Name = "send"
+send.Parent = Frame
+send.BackgroundColor3 = Color3.fromRGB(168, 30, 30)
+send.Position = UDim2.new(0.0289288424, 0, 0.418697029, 0)
+send.Size = UDim2.new(0, 120, 0, 33)
+send.Font = Enum.Font.SourceSans
+send.Text = "Submit"
+send.TextColor3 = Color3.fromRGB(255, 255, 255)
+send.TextScaled = true
+send.TextSize = 14.000
+send.TextWrapped = true
+send.MouseButton1Click:connect(function()
+	if TextBox.Text == "venom" then
+		game:GetService("StarterGui"):SetCore("SendNotification",{
+			Title = "Welcome";
+			Text = "Enjoy!";
+		})
+		ScreenGui:Destroy()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogs1321uncrackable/anime-ghoul-game/main/README.md", true))()
+	else
+		game:GetService("StarterGui"):SetCore("SendNotification",{
+			Title = "Error";
+			Text = "Incorrect key!";
+		})
+	end   
+end)
+
+
+UICorner_3.Parent = send
+
+discord.Name = "discord"
+discord.Parent = Frame
+discord.BackgroundColor3 = Color3.fromRGB(168, 30, 30)
+discord.Position = UDim2.new(0.517896891, 0, 0.418697029, 0)
+discord.Size = UDim2.new(0, 120, 0, 33)
+discord.Font = Enum.Font.SourceSans
+discord.Text = "Copy discord server"
+discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+discord.TextScaled = true
+discord.TextSize = 14.000
+discord.TextWrapped = true
+
+UICorner_4.Parent = discord
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(135, 24, 24)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.132980987, 0, -0.000513609499, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Lanxility"
+TextLabel.TextColor3 = Color3.fromRGB(254, 254, 254)
+TextLabel.TextSize = 35.000
+
+KeyBybass.Name = "KeyBybass"
+KeyBybass.Parent = Frame
+KeyBybass.BackgroundColor3 = Color3.fromRGB(145, 25, 25)
+KeyBybass.Position = UDim2.new(0.265169114, 0, 0.584798694, 0)
+KeyBybass.Size = UDim2.new(0, 126, 0, 32)
+KeyBybass.Font = Enum.Font.SourceSansItalic
+KeyBybass.Text = "KeyBybass"
+KeyBybass.TextColor3 = Color3.fromRGB(255, 255, 255)
+KeyBybass.TextScaled = true
+KeyBybass.TextSize = 14.000
+KeyBybass.TextWrapped = true
+KeyBybass.MouseButton1Click:connect(function()
+	local Player = game.Players.LocalPlayer
+
+
+	if game:GetService("MarketplaceService"):UserOwnsGamePassAsync(Player.UserId, 25790715) then
+		game:GetService("StarterGui"):SetCore("SendNotification",{
+			Title = "Skipped!";
+			Text = "!";
+		})
+		ScreenGui:Destroy()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogs1321uncrackable/anime-ghoul-game/main/README.md", true))()
+	else
+		game:GetService("StarterGui"):SetCore("SendNotification",{
+			Title = "Erorr";
+			Text = "Buy gamepass its copied";
+		})
+	end
+end)
+
+
+
+
+
+
+
+
+UICorner_5.Parent = KeyBybass
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.209379017, 0, 0.765142083, 0)
+TextLabel_2.Size = UDim2.new(0, 151, 0, 26)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "SALES ON KEY BYBASS!"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 30.000
+
+-- Scripts:
+
+local function FHTFK_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	local gamepassids = {"17564084", }
+end
+coroutine.wrap(FHTFK_fake_script)()
+local function UQDKR_fake_script() -- discord.LocalScript 
+	local script = Instance.new('LocalScript', discord)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		setclipboard('https://discord.gg/venomdh')
+	end)
+end
+coroutine.wrap(UQDKR_fake_script)()
+local function TUUNO_fake_script() -- KeyBybass.LocalScript 
+	local script = Instance.new('LocalScript', KeyBybass)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		setclipboard('https://www.roblox.com/game-pass/25790715/Key-Bypass-for-lanxility')
+	end)
+end
+coroutine.wrap(TUUNO_fake_script)()
+local function QIMMJ_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	workspace:FindFirstChildOfClass('Terrain').WaterWaveSize = 0
+	workspace:FindFirstChildOfClass('Terrain').WaterWaveSpeed = 0
+	workspace:FindFirstChildOfClass('Terrain').WaterReflectance = 0
+	workspace:FindFirstChildOfClass('Terrain').WaterTransparency = 0
+	game:GetService("Lighting").GlobalShadows = false
+	game:GetService("Lighting").FogEnd = 9e9
+	settings().Rendering.QualityLevel = 1
+	for i,v in pairs(game:GetDescendants()) do
+		if v:IsA("Part") or v:IsA("UnionOperation") or v:IsA("MeshPart") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+			v.Material = "Plastic"
+			v.Reflectance = 0
+		elseif v:IsA("Decal") then
+			v.Transparency = 1
+		elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+			v.Lifetime = NumberRange.new(0)
+		elseif v:IsA("Explosion") then
+			v.BlastPressure = 1
+			v.BlastRadius = 1
+		end
+	end
+	for i,v in pairs(game:GetService("Lighting"):GetDescendants()) do
+		if v:IsA("BlurEffect") or v:IsA("SunRaysEffect") or v:IsA("ColorCorrectionEffect") or v:IsA("BloomEffect") or v:IsA("DepthOfFieldEffect") then
+			v.Enabled = false
+		end
+	end
+	
+end
